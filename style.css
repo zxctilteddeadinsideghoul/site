@@ -33,8 +33,13 @@
 	justify-content: space-between;
 	
 }
-.site-content{
-	
+.flex-container-map{
+	display: flex;
+	flex-flow: row wrap-reverse;
+	flex-direction: row;
+	justify-content:flex-start;
+	gap: 25%;
+	align-content: flex-start;
 }
 .at-center-top{
 	display: flex;
