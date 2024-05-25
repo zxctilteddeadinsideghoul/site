@@ -30,10 +30,44 @@
 	display: flex;
   	min-height: 100vh;
   	flex-direction: column;
+	justify-content: space-between;
+	
 }
-.site-content{
-	flex: 1;
-  display: flex;
+.flex-container-map{
+	display: flex;
+	flex-flow: row wrap-reverse;
+	flex-direction: row;
+	justify-content:flex-start;
+	gap: 25%;
+	align-content: flex-start;
+}
+.at-center-top{
+	display: flex;
+	justify-content: center;
+	
+}
+.flex-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	gap: 12px;
+	align-content: flex-start;
+  }
+  .flex-item {
+	width: 20%;
+	height: 35%;
+}
+.small-text{
+	font-size: 0.7rem;
+}
+.at-end{
+	display: flex;
+	justify-content: end;
+}
+.photo{
+	
+	height: auto;
+    max-width: 40%;
 }
 footer{
 	height: 10px;
