@@ -1,0 +1,40 @@
+
+.hide-scroll-bar::-webkit-scrollbar {
+	display: none;
+}
+.cursed-cat-gif{
+	width: 60px;
+  	height: auto;
+}
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+	height: 1.5rem;
+    width: 1.5rem;
+}
+.icon:first-child:last-child {
+    margin-left: calc(-0.5em - 1px);
+    margin-right: calc(-0.5em - 1px);
+}
+
+.is-flex-space-between{
+	display: flex;
+	justify-content:space-between;
+	gap: 10px;
+}
+.github-image{
+	border-radius: 30%;
+}
+.site{
+	display: flex;
+  	min-height: 100vh;
+  	flex-direction: column;
+}
+.site-content{
+	flex: 1;
+  display: flex;
+}
+footer{
+	height: 10px;
+ }
