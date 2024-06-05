@@ -35,11 +35,11 @@
 }
 .flex-container-map{
 	display: flex;
-	flex-flow: row wrap-reverse;
+	flex-flow: row wrap;
 	flex-direction: row;
-	justify-content:flex-start;
-	gap: 25%;
-	align-content: flex-start;
+	
+	gap: 20%;
+	align-content:center;
 }
 .at-center-top{
 	display: flex;
@@ -67,7 +67,10 @@
 .photo{
 	
 	height: auto;
-    max-width: 40%;
+    width: 30%;
+}
+.contatct{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 footer{
 	height: 10px;
